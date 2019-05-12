@@ -1,0 +1,20 @@
+{
+    "name": "saaiph/dotenv",
+    "description": "Leitura de arquivo em desenvolvimento",
+    "license": "MIT",
+    "type": "librare",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "danieljuniorce",
+            "email": "danieljuniorce@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Saaiph\\Dotenv\\": "src/",
+            "Saaiph\\Dotenv\\Component\\": "src/Component/"
+        }
+    }
+}
