@@ -4,18 +4,21 @@
     "license": "MIT",
     "type": "library",
     "version": "1.0",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "danieljuniorce",
             "email": "danieljuniorce@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1"
+    },
     "autoload": {
         "psr-4": {
             "Saaiph\\Dotenv\\": "src/",
             "Saaiph\\Dotenv\\Component\\": "src/Component/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
