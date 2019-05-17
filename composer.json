@@ -2,8 +2,9 @@
     "name": "saaiph/dotenv",
     "description": "Leitura de arquivo em desenvolvimento",
     "license": "MIT",
-    "type": "librare",
+    "type": "library",
     "version": "1.0",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "danieljuniorce",
